@@ -1,6 +1,6 @@
 # database-on-cloud
 
-Quick Lab#0進入AWS Academy
+Quick Lab#0進入AWS Academy：https://github.com/EISCFCU/database-on-cloud/blob/main/main.md
 
 Quick Lab#1 S3存儲服務(Excel)
 
