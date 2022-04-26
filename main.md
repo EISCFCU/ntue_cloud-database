@@ -95,6 +95,8 @@
 ![image](https://user-images.githubusercontent.com/103306835/165219252-913be8c9-7bc7-4407-9606-d2954718aa66.png)
 
 2.可以不要透過信件連結登入AWS Academy嗎?
+
+
 可以，請在瀏覽器網址列輸入：https://awsacademy.instructure.com/login/canvas
 會出現以下畫面，輸入帳號密碼即可登入
 
