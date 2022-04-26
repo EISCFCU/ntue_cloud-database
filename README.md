@@ -1,4 +1,4 @@
-# database-on-cloud
+# cloud database
 
 Quick Lab#0進入AWS Academy：https://github.com/EISCFCU/database-on-cloud/blob/main/main.md
 
