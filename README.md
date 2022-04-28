@@ -1,4 +1,4 @@
-# cloud database
+# 雲端資料庫課程教材
 
 Quick Lab#0進入AWS Academy：https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%230%E9%80%B2%E5%85%A5AWS%20Academy.md
 
