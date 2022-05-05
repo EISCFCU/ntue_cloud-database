@@ -6,8 +6,8 @@ Quick Lab#1 S3存儲服務(Excel)：https://github.com/EISCFCU/ntue_cloud-databa
 
 Quick Lab#2 雲端資料庫實作（RDS）：https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%232%20%E9%9B%B2%E7%AB%AF%E8%B3%87%E6%96%99%E5%BA%AB%E5%AF%A6%E4%BD%9C%EF%BC%88RDS%EF%BC%89.md
 
-Quick Lab#3 資料轉換成資料庫欄位
+Quick Lab#3 雲端資料庫實作（Dynamodb）
 
-Quick Lab#4 雲端資料庫實作（Dynamodb）
+Quick Lab#4 雲端視覺化呈現(Quicksight)
 
-Quick Lab#5雲端視覺化呈現(Quicksight)
+Quick Lab#5 雲端視覺化呈現(Quicksight)
