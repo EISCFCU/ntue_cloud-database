@@ -89,3 +89,62 @@
 ![image](https://user-images.githubusercontent.com/103306835/167766745-8e681435-d121-4c79-8327-c5d1175bf730.png)
 
 #  Step2：建立儲存桶(S3) 
+
+1.搜尋S3
+
+![image](https://user-images.githubusercontent.com/103306835/167769668-4eaab0f3-5402-4649-8e7b-4fbd3ebe00dd.png)
+
+2.點選[建立儲存貯體]
+
+![image](https://user-images.githubusercontent.com/103306835/167769872-91f14e76-8858-4ea0-8ec7-5f5c0adf6e86.png)
+
+3.輸入儲存貯體名稱(自訂)
+
+![image](https://user-images.githubusercontent.com/103306835/167769912-c9e36a53-975e-4f91-9583-32093c65ffd4.png)
+
+4.取消勾選封鎖 並勾選我確認…
+
+![image](https://user-images.githubusercontent.com/103306835/167769984-2ee35fc9-242e-4e29-a871-7812da42c6fd.png)
+
+5.點選[建立儲存貯體]
+
+![image](https://user-images.githubusercontent.com/103306835/167770037-bfd865b8-5a7d-480d-bac5-f32d2fdcad18.png)
+
+6.成功建立儲存貯體
+
+![image](https://user-images.githubusercontent.com/103306835/167770060-f7506a67-a51d-468b-9328-bb5dbb7f017b.png)
+
+# Step3：建立No sql 資料庫(Dynamodb)
+
+1.搜尋Dynamodb
+
+![image](https://user-images.githubusercontent.com/103306835/167770107-cb1f5f48-b051-4df0-afb7-d33eb7f8a519.png)
+
+2.點選Dynamodb
+
+![image](https://user-images.githubusercontent.com/103306835/167770124-1929017b-ab6d-427b-b387-d22d9478cbad.png)
+
+3.點選[建立資料表]
+
+![image](https://user-images.githubusercontent.com/103306835/167770174-457c19c8-df1b-491c-9426-91ae269e649d.png)
+
+4.輸入資料表名稱：S3-log-20220512
+
+分區索引：StartTime(字串) 
+排序索引：FileName(字串)
+
+![image](https://user-images.githubusercontent.com/103306835/167770212-50a8ee33-eb8d-4cea-93a5-2aeec8d45916.png)
+
+5.點選[建立資料表]
+
+![image](https://user-images.githubusercontent.com/103306835/167770238-292d66e0-7a03-4704-a1e5-032dccd2f8dd.png)
+
+6.成功建立S3-log-20220512資料表(狀態：作用中)
+
+![image](https://user-images.githubusercontent.com/103306835/167770292-95bdb192-5e3e-42db-983d-9bcb3da1ad7d.png)
+
+# Step4：建立 Lambda
+
+
+
+
