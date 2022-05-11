@@ -14,6 +14,8 @@ Quick Lab#2 雲端資料庫實作（RDS）：
 
 2-2.雲端資料庫連結網頁伺服器並設定異地備援機制：https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%232-2%20%E9%9B%B2%E7%AB%AF%E8%B3%87%E6%96%99%E5%BA%AB%E5%AF%A6%E4%BD%9C%EF%BC%88RDS%EF%BC%89.md
 
+# 0512 課程內容
+
 Quick Lab#3 雲端資料庫實作（Dynamodb）
 
 https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%233%20%E9%9B%B2%E7%AB%AF%E8%B3%87%E6%96%99%E5%BA%AB%E5%AF%A6%E4%BD%9C(Dynamodb).md
