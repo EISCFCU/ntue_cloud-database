@@ -166,7 +166,7 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 
 3.點選[建立資料表]
 
-![image](https://user-images.githubusercontent.com/103306835/167770174-457c19c8-df1b-491c-9426-91ae269e649d.png)
+![image](https://user-images.githubusercontent.com/103306835/167976455-b65b225b-7d82-40f4-8062-91fcab93fbdd.png)
 
 4.輸入資料表名稱：S3-log-20220512
 
