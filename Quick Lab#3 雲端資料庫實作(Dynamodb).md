@@ -7,7 +7,9 @@
 另外，這一系列的上傳備份與資料庫異動的動作(Log)，主管希望記錄在No sql的資料庫(Dynamodb)中，方便後續追蹤備份與轉換，請協助進行POS系統的資料庫雲端搬遷。
 
 # 使用環境
-AWS Academy Learner Lab(課程代碼：19091)
+AWS Academy Learner Lab-Foundation Services(課程代碼：19091)
+
+如何進入Learner Lab，請參考：https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%230%E9%80%B2%E5%85%A5AWS%20Academy.md
 
 # 使用資源(請先下載)
 
@@ -37,6 +39,9 @@ AWS Academy Learner Lab(課程代碼：19091)
 
 
 3.lambda.zip：https://github.com/EISCFCU/cloudcomputing_acf/blob/main/s3-csv-trans-cf42bb56-a71d-49da-961d-684300dea41a.zip
+
+![image](https://user-images.githubusercontent.com/103306835/167974882-429d86e4-7de3-477c-aae6-0d5e0be78d3c.png)
+
 
 #實作架構
 
