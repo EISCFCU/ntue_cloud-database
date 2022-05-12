@@ -43,7 +43,7 @@ AWS Academy Learner Lab-Foundation Services(課程代碼：19091)
 ![image](https://user-images.githubusercontent.com/103306835/167975240-880be2da-44b8-4036-af1b-f4e56ccf6e28.png)
 
 
-#實作架構
+# 實作架構
 
 ![image](https://user-images.githubusercontent.com/103306835/167766069-215b877d-fb67-447d-8b91-e377b066bc69.png)
 
