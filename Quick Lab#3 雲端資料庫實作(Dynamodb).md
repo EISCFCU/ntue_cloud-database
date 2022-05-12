@@ -286,7 +286,7 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 
 ![image](https://user-images.githubusercontent.com/103306835/167772135-3dd96163-7fc2-471e-9580-8368fa4f4e63.png)
 
-25.貼上測試語法
+25.貼上測試語法(刪除下方的1-5行程式碼再貼上測是語法)
 
 ![image](https://user-images.githubusercontent.com/103306835/167772156-7a65780a-db24-492f-8272-abc8647b60b7.png)
 
