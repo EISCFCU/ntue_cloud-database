@@ -6,8 +6,18 @@
 由於POS資料庫從SQLite資料庫更換為MYSQL資料庫，資訊主管指示A團隊小組將先將既有POS資料匯出(CSV檔)，上傳雲端儲存桶(S3)做備份，並同時直接存入MYSQL資料庫。
 另外，這一系列的上傳備份與資料庫異動的動作(Log)，主管希望記錄在No sql的資料庫(Dynamodb)中，方便後續追蹤備份與轉換，請協助進行POS系統的資料庫雲端搬遷。
 
+# 使用環境
+AWS Academy Learner Lab(課程代碼：19091)
 
-# Lab Scenario
+# 使用資源(請先下載)
+
+1.sqlectron：https://sqlectron.github.io/
+
+2.csv檔：https://github.com/EISCFCU/cloudcomputing_acf/blob/main/product_sale.csv
+
+3.lambda.zip：https://github.com/EISCFCU/cloudcomputing_acf/blob/main/s3-csv-trans-cf42bb56-a71d-49da-961d-684300dea41a.zip
+
+#實作架構
 
 ![image](https://user-images.githubusercontent.com/103306835/167766069-215b877d-fb67-447d-8b91-e377b066bc69.png)
 
@@ -87,6 +97,7 @@
 16.等待建立完成
 
 ![image](https://user-images.githubusercontent.com/103306835/167766745-8e681435-d121-4c79-8327-c5d1175bf730.png)
+
 
 #  Step2：建立儲存桶(S3) 
 
@@ -246,6 +257,48 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/167772156-7a65780a-db24-492f-8272-abc8647b60b7.png)
 
+```
+{
+  "Records": [
+    {
+      "eventVersion": "2.0",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "1970-01-01T00:00:00.000Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "EXAMPLE"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "127.0.0.1"
+      },
+      "responseElements": {
+        "x-amz-request-id": "EXAMPLE123456789",
+        "x-amz-id-2": "EXAMPLE123/5678abcdefghijklambdaisawesome/mnopqrstuvwxyzABCDEFGH"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "testConfigRule",
+        "bucket": {
+          "name": "my-s3-bucket",
+          "ownerIdentity": {
+            "principalId": "EXAMPLE"
+          },
+          "arn": "arn:aws:s3:::example-bucket"
+        },
+        "object": {
+          "key": "HappyFace.jpg",
+          "size": 1024,
+          "eTag": "0123456789abcdef0123456789abcdef",
+          "sequencer": "0A1B2C3D4E5F678901"
+        }
+      }
+    }
+  ]
+}
+
+```
+
 26.修改23、27行的s3 bucket name及30行的object name(product_sale.csv)
 
 ![image](https://user-images.githubusercontent.com/103306835/167772264-ca6b2c49-b1ec-4a0e-87ac-02b7b44303d6.png)
@@ -261,19 +314,53 @@
 
 # Step5： RDS連線到雲端資料庫 
 
-1.開啟sqlectron
+1.點選lab-3
+
+![image](https://user-images.githubusercontent.com/103306835/167766745-8e681435-d121-4c79-8327-c5d1175bf730.png)
+
+2.點選Type為[EC2 Security Group-Inbound]
+
+![image](https://user-images.githubusercontent.com/103306835/167972480-8e5b8732-c203-4f4f-bfa0-a0f59d9bcdc9.png)
+
+3.點選輸入規則
+
+![image](https://user-images.githubusercontent.com/103306835/167972529-ad4723f2-af17-49db-a326-281f6707863d.png)
+
+4.修改輸入規則來源為0.0.0.0/0(任何一台電腦都可以登入RDS)
+
+
+5.下載sqlectron(已經下載sqlectron請忽略此步驟)
+
+https://sqlectron.github.io/
+
+6.點選GUI
+
+![image](https://user-images.githubusercontent.com/103306835/167972790-e833bc5d-f8e2-4208-8ffc-98ed2127361c.png)
+
+7.選擇對應的GUI版本
+
+![image](https://user-images.githubusercontent.com/103306835/167972992-370792de-f0c7-4cdd-ac17-d7da570a00ef.png)
+
+
+8.下載後解壓縮
+
+9.開啟sqlectron
+
+![image](https://user-images.githubusercontent.com/103306835/167973456-485b1160-8c1f-49a7-96b2-e061cd966c9c.png)
+
+10.啟動sqlectron
 
 ![image](https://user-images.githubusercontent.com/103306835/167772383-1ef8b6b7-cf0b-4e5e-8adb-f7b20a8af95d.png)
 
-2.點選[Add]
+11.點選[Add]
 
 ![image](https://user-images.githubusercontent.com/103306835/167772414-864e76d5-2668-4d9f-9156-9c608e249a16.png)
 
-3.輸入資料庫連線資訊
+12.輸入資料庫連線資訊
 
-![image](https://user-images.githubusercontent.com/103306835/167772442-e514278b-c755-4df6-bb7f-662a608cdf6e.png)
+![image](https://user-images.githubusercontent.com/103306835/167973751-038a2063-7c4e-464d-b90a-97d5dae6149c.png)
 
-4.點選[Save]
+13.點選[Save]
 
 ![image](https://user-images.githubusercontent.com/103306835/167772462-cc9df0e3-a37b-440b-b39b-8908b3fc7339.png)
 
@@ -284,6 +371,16 @@
 6.輸入SQL語法
 
 ![image](https://user-images.githubusercontent.com/103306835/167772541-fd18e851-2f38-4801-ac0e-f396cce2463a.png)
+
+```
+CREATE TABLE IF NOT EXISTS product_sale_summary(
+  product_name varchar(255),
+  quantity int,
+  amount double,
+  revenue double,
+  file_name varchar(255)
+  );
+```
 
 7.點選[Execute]
 
