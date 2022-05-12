@@ -13,7 +13,7 @@ AWS Academy Learner Lab(課程代碼：19091)
 
 1.sqlectron：https://sqlectron.github.io/
 
-2.csv檔：https://github.com/EISCFCU/cloudcomputing_acf/blob/main/product_sale.csv
+2.csv檔：https://github.com/EISCFCU/ntue_cloud-database/blob/main/product_sale.csv
 
 3.lambda.zip：https://github.com/EISCFCU/cloudcomputing_acf/blob/main/s3-csv-trans-cf42bb56-a71d-49da-961d-684300dea41a.zip
 
