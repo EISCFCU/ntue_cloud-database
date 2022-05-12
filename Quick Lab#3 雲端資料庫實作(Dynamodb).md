@@ -40,7 +40,7 @@ AWS Academy Learner Lab-Foundation Services(課程代碼：19091)
 
 3.lambda.zip：https://github.com/EISCFCU/cloudcomputing_acf/blob/main/s3-csv-trans-cf42bb56-a71d-49da-961d-684300dea41a.zip
 
-![image](https://user-images.githubusercontent.com/103306835/167974882-429d86e4-7de3-477c-aae6-0d5e0be78d3c.png)
+![image](https://user-images.githubusercontent.com/103306835/167975240-880be2da-44b8-4036-af1b-f4e56ccf6e28.png)
 
 
 #實作架構
@@ -313,7 +313,7 @@ AWS Academy Learner Lab-Foundation Services(課程代碼：19091)
           "arn": "arn:aws:s3:::example-bucket"
         },
         "object": {
-          "key": "HappyFace.jpg",
+          "key": "product_sale.csv",
           "size": 1024,
           "eTag": "0123456789abcdef0123456789abcdef",
           "sequencer": "0A1B2C3D4E5F678901"
@@ -438,11 +438,13 @@ CREATE TABLE IF NOT EXISTS product_sale_summary(
 
 ![image](https://user-images.githubusercontent.com/103306835/167772792-e4ee8757-03bc-4157-a7ef-d7ce7154fff1.png)
 
-5.點選[上傳]
+5.將product_sale.csv上傳
+
+6.點選[上傳]
 
 ![image](https://user-images.githubusercontent.com/103306835/167772812-3a734625-868c-4968-beaf-9046ce3f3473.png)
 
-6.成功上傳
+7.成功上傳
 
 ![image](https://user-images.githubusercontent.com/103306835/167772844-2c4e36f9-d1e0-4e7d-849f-d4e3bf877d08.png)
 
@@ -487,6 +489,7 @@ CREATE TABLE IF NOT EXISTS product_sale_summary(
 2.目前測試出來的錯誤訊息
 
 =>No suchkey 表示S3找不到檔案或是桶子名字輸入錯誤
+
 =>PutItem error表示Dynamodb資料表名字或欄位輸入錯誤
 
 
