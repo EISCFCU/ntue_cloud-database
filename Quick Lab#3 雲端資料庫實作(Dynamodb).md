@@ -13,7 +13,28 @@ AWS Academy Learner Lab(課程代碼：19091)
 
 1.sqlectron：https://sqlectron.github.io/
 
+1-1.下載sqlectron，連結：https://sqlectron.github.io/
+
+1-2.點選GUI
+
+![image](https://user-images.githubusercontent.com/103306835/167972790-e833bc5d-f8e2-4208-8ffc-98ed2127361c.png)
+
+1-3.選擇對應的GUI版本
+
+![image](https://user-images.githubusercontent.com/103306835/167972992-370792de-f0c7-4cdd-ac17-d7da570a00ef.png)
+
+
+1-4.下載後解壓縮
+
+1-5.開啟sqlectron
+
+![image](https://user-images.githubusercontent.com/103306835/167973456-485b1160-8c1f-49a7-96b2-e061cd966c9c.png)
+
+
 2.csv檔：https://github.com/EISCFCU/ntue_cloud-database/blob/main/product_sale.csv
+
+![image](https://user-images.githubusercontent.com/103306835/167974685-38cd4e04-5d51-4f16-a0e3-8990c2e3b567.png)
+
 
 3.lambda.zip：https://github.com/EISCFCU/cloudcomputing_acf/blob/main/s3-csv-trans-cf42bb56-a71d-49da-961d-684300dea41a.zip
 
