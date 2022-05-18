@@ -471,33 +471,38 @@ CREATE TABLE IF NOT EXISTS ordertable(
 
 7.輸入資料庫連線資訊
 
-![image](https://user-images.githubusercontent.com/103306835/169000955-31190431-5f5c-4784-8bab-e66cc6ee207b.png)
+![image](https://user-images.githubusercontent.com/103306835/169141444-dd461515-8fbd-4d89-abe7-5eaaaf3f00cf.png)
 
 8.點選[驗證連線]
 
-![image](https://user-images.githubusercontent.com/103306835/169001004-7b9f7176-b176-4057-bb32-e4c0e3bfae57.png)
+![image](https://user-images.githubusercontent.com/103306835/169141477-b195cea5-1495-4cdb-8ec7-879b47f504e0.png)
 
 9.點選[建立資料來源]
 
-![image](https://user-images.githubusercontent.com/103306835/169001088-4b812ea1-58e1-469a-8dfd-f8bf09b73faa.png)
+![image](https://user-images.githubusercontent.com/103306835/169141503-f85d53cf-4e25-402d-aeb3-4d0ce20d2c52.png)
 
-10.點選Sale資料表
+10.點選ordertable資料表
 
-![image](https://user-images.githubusercontent.com/103306835/169001152-c8a709fe-39c1-45ad-80f8-3374eb06f731.png)
+![image](https://user-images.githubusercontent.com/103306835/169141530-3854dc64-579a-42a9-8fe9-4f12f8c19f97.png)
 
 11.點選[選取]
 
-![image](https://user-images.githubusercontent.com/103306835/169001271-5475ff23-d3c1-4f5c-9bda-71ed39ae1ed0.png)
+![image](https://user-images.githubusercontent.com/103306835/169141567-9db3dffd-8d74-40d7-99e8-3a737e9c0a27.png)
 
-12.點選[Visualize]
+12.點選直接查詢資料
 
-![image](https://user-images.githubusercontent.com/103306835/169001335-893e0a22-e80e-40d9-9d4d-bc3c074c6e9d.png)
+![image](https://user-images.githubusercontent.com/103306835/169141599-8221b8f6-191e-408b-85f8-49d880424c95.png)
 
-13.設計介面
+
+13.點選[Visualize]
+
+![image](https://user-images.githubusercontent.com/103306835/169141656-2b3330f2-b7ef-42a0-9213-5820d7bea671.png)
+
+14.設計介面
 
 ![image](https://user-images.githubusercontent.com/103306835/169001396-afd013e8-8b0c-4de2-8020-1176d5cac9f6.png)
 
 14.選取欄位設計圖表
 
-![image](https://user-images.githubusercontent.com/103306835/169001455-d7478246-9523-4e18-9e27-b875f3b3d744.png)
+![image](https://user-images.githubusercontent.com/103306835/169141678-632766c5-e61c-405e-ab16-b3372d597720.png)
 
