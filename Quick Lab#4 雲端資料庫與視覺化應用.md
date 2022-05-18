@@ -57,7 +57,7 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 
 # 操作步驟
 
-![image](https://user-images.githubusercontent.com/103306835/168982260-d9619d5b-cd87-4ae6-9afd-190fef76d80a.png)
+![image](https://user-images.githubusercontent.com/103306835/169141865-33189436-596a-41c9-9807-ffc323494d2a.png)
 
 # Step1：建立雲端資料庫
 
