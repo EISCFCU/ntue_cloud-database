@@ -7,14 +7,49 @@
 另外，這一系列的上傳備份與資料庫異動的動作(Log)，主管希望記錄在No sql的資料庫(Dynamodb)中，方便後續追蹤備份與轉換，請協助進行POS系統的資料庫雲端搬遷。
 近期想將資料庫資料做視覺化儀錶板，方便主管查看目前商品銷售狀況與檢索。
 
+# 使用環境(請先Start Lab)
+AWS Academy Learner Lab-Foundation Services(課程代碼：19091)
+
+AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
+
+如何進入Learner Lab，請參考：https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%230%E9%80%B2%E5%85%A5AWS%20Academy.md
+
+ 使用資源(請先下載)
+
+1.sqlectron：https://sqlectron.github.io/
+
+1-1.下載sqlectron，連結：https://sqlectron.github.io/
+
+1-2.點選GUI
+
+![image](https://user-images.githubusercontent.com/103306835/167972790-e833bc5d-f8e2-4208-8ffc-98ed2127361c.png)
+
+1-3.選擇對應的GUI版本
+
+![image](https://user-images.githubusercontent.com/103306835/167972992-370792de-f0c7-4cdd-ac17-d7da570a00ef.png)
+
+
+1-4.下載後解壓縮
+
+1-5.開啟sqlectron
+
+![image](https://user-images.githubusercontent.com/103306835/167973456-485b1160-8c1f-49a7-96b2-e061cd966c9c.png)
+
+
+2.csv檔：
+
+
+3.lambda.zip：https://github.com/EISCFCU/ntue_cloud-database/blob/main/s3-csv-trans-fe42e873-5146-447d-ab7b-b186cfbd1caa.zip
+
+
+![image](https://user-images.githubusercontent.com/103306835/167975240-880be2da-44b8-4036-af1b-f4e56ccf6e28.png)
+
+
 # 實施架構
 
 ![image](https://user-images.githubusercontent.com/103306835/168982036-1ab09e1e-9250-4d3f-b5dd-e10d5f30579a.png)
 
 
-# 資料集
-
-![image](https://user-images.githubusercontent.com/103306835/168982125-97d0062d-f546-4980-8dd6-1ac97b38585a.png)
 
 
 # 操作步驟
