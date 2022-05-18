@@ -253,9 +253,11 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 
 18.選擇.zip 檔案
 
+lambda.zip：https://github.com/EISCFCU/ntue_cloud-database/blob/main/s3-csv-trans-fe42e873-5146-447d-ab7b-b186cfbd1caa.zip
+
 ![image](https://user-images.githubusercontent.com/103306835/168988284-28e99449-c3fb-4899-95aa-f888d965b1b4.png)
 
-19.選擇[上傳]
+19.選擇[上傳] 
 
 ![image](https://user-images.githubusercontent.com/103306835/168988328-2712203a-faa0-43f2-973d-30451c5f5ee7.png)
 
