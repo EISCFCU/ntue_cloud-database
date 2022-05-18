@@ -20,6 +20,8 @@ Quick Lab#3 雲端資料庫實作（Dynamodb）
 
 https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%233%20%E9%9B%B2%E7%AB%AF%E8%B3%87%E6%96%99%E5%BA%AB%E5%AF%A6%E4%BD%9C(Dynamodb).md
 
+# 0519 課程內容
+
 Quick Lab#4 雲端視覺化呈現(Quicksight)
 
 Quick Lab#5 雲端視覺化呈現(Quicksight)
