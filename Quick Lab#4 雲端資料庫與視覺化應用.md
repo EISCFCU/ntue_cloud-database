@@ -298,6 +298,17 @@ RDS Endpoint、 S3名稱、Dynamodb資料表名稱
 
 ![image](https://user-images.githubusercontent.com/103306835/168998687-9c1aaf8f-969a-4d4d-a3ea-e03b93284bc6.png)
 
+```
+CREATE TABLE IF NOT EXISTS Sale(
+  ID int,
+  ProductID int,
+  SaleDate datetime,
+  CusNo int,
+  Saleamount double,
+  file_name varchar(255)
+  );
+```
+
 12.點選[Execute]
 
 ![image](https://user-images.githubusercontent.com/103306835/168998779-859eb6ed-195f-45ac-9328-5b3adf9c4988.png)
