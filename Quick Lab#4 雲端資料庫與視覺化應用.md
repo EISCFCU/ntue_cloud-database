@@ -267,11 +267,11 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 
 RDS Endpoint、 S3名稱、Dynamodb資料表名稱
 
-![image](https://user-images.githubusercontent.com/103306835/168995718-f77ac33f-c241-4b93-8d58-d6a3db080782.png)
+![image](https://user-images.githubusercontent.com/103306835/169138766-85a6389b-f728-4643-8371-38a00d70fa0c.png)
 
 22.點選[Deploy]
 
-![image](https://user-images.githubusercontent.com/103306835/168997382-d6fcf12f-e802-49ae-8b12-2cf8fd55a31e.png)
+![image](https://user-images.githubusercontent.com/103306835/169138799-bb4de053-1097-4b11-aa70-0da9b0082dc1.png)
 
 23.點選[Test]
 
@@ -287,11 +287,11 @@ RDS Endpoint、 S3名稱、Dynamodb資料表名稱
 
 26.修改23、27行的s3 bucket name及30行的object name
 
-![image](https://user-images.githubusercontent.com/103306835/168997696-40e52f98-0660-408a-b4e7-e28756eba9b9.png)
+![image](https://user-images.githubusercontent.com/103306835/169138850-599413e9-5324-4c07-9e6b-fa77b0593446.png)
 
 27.點選[儲存]
 
-![image](https://user-images.githubusercontent.com/103306835/168997770-c4c24fe9-11f7-4d4d-8822-7467ffed9fe1.png)
+![image](https://user-images.githubusercontent.com/103306835/169138873-9469f7a1-737a-49c2-97e2-823d84814f5d.png)
 
 28.成功儲存測試事件
 
@@ -299,39 +299,65 @@ RDS Endpoint、 S3名稱、Dynamodb資料表名稱
 
 # Step5： RDS連線到雲端資料庫 
 
-1.回到RDS
+1.點選RDS
 
-2.點選RDS
+![image](https://user-images.githubusercontent.com/103306835/169137749-55787a61-66e9-4b67-bd8a-e77e4c817467.png)
 
 3.查看RDS
 
+![image](https://user-images.githubusercontent.com/103306835/169137796-ce65d433-74ae-4354-9681-758b81faede5.png)
+
+
 4.查看Security group
 
-5.
+![image](https://user-images.githubusercontent.com/103306835/169137894-3a81b66f-dd49-4002-8f52-594fe10c91fe.png)
 
-6.開啟sqlectron
+5.點選傳入規則
+
+![image](https://user-images.githubusercontent.com/103306835/169138074-2719bb6e-3726-46d1-ac17-f394f38f96a8.png)
+
+6.來源為0.0.0.0/0 若不是，請修改輸入規則來源為0.0.0.0/0(指任何一台電腦都可以登入RDS)
+
+![image](https://user-images.githubusercontent.com/103306835/169138196-8b514b0d-2ad5-45ca-8568-630776b2d343.png)
+
+7.下載sqlectron(已經下載sqlectron請忽略此步驟)
+
+https://sqlectron.github.io/
+
+8.點選GUI
+
+![image](https://user-images.githubusercontent.com/103306835/167972790-e833bc5d-f8e2-4208-8ffc-98ed2127361c.png)
+
+9.選擇對應的GUI版本
+
+![image](https://user-images.githubusercontent.com/103306835/167972992-370792de-f0c7-4cdd-ac17-d7da570a00ef.png)
+
+
+10.下載後解壓縮
+
+11.開啟sqlectron
 
 ![image](https://user-images.githubusercontent.com/103306835/168998388-eb3bae08-edbe-4a1b-a5f4-6bce569377c6.png)
 
-7.點選[Add]
+12.點選[Add]
 
 ![image](https://user-images.githubusercontent.com/103306835/168998453-4254ab67-3de7-4179-9782-40659a2ca43e.png)
 
-8.輸入資料庫連線資訊
+13.輸入資料庫連線資訊
 
-輸入資料庫連線資訊![image](https://user-images.githubusercontent.com/103306835/168998513-4d82cd8c-04fd-46aa-b595-22a0904db9cc.png)
+![image](https://user-images.githubusercontent.com/103306835/169138329-0ba9f26b-0108-4c5c-9694-e71457dca921.png)
 
-9.點選[Save]
+14.點選[Save]
 
-![image](https://user-images.githubusercontent.com/103306835/168998564-072bcd48-a8c5-4675-953f-fbbf62b553e8.png)
+![image](https://user-images.githubusercontent.com/103306835/169138361-6db0d925-32ff-4258-830c-4a0c21838e85.png)
 
-10.點選[Connect]
+15.點選[Connect]
 
-![image](https://user-images.githubusercontent.com/103306835/168998639-f662d6e5-498e-45f4-a0bc-27aa7b37de80.png)
+![image](https://user-images.githubusercontent.com/103306835/169138390-1c1c9f17-5170-464d-bfa4-2a3e7c04e064.png)
 
-11.輸入SQL語法
+16.輸入SQL語法
 
-![image](https://user-images.githubusercontent.com/103306835/168998687-9c1aaf8f-969a-4d4d-a3ea-e03b93284bc6.png)
+![image](https://user-images.githubusercontent.com/103306835/169138423-0cd379e7-df4a-429d-86f7-9a96c3843d3b.png)
 
 ```
 CREATE TABLE IF NOT EXISTS ordertable(
@@ -339,21 +365,22 @@ CREATE TABLE IF NOT EXISTS ordertable(
   order_id varchar(255),
   items_count int,
   order_total double,
-  order_status int
+  order_status int,
+  file_name varchar(255)
   );
 ```
 
-12.點選[Execute]
+17.點選[Execute]
 
-![image](https://user-images.githubusercontent.com/103306835/168998779-859eb6ed-195f-45ac-9328-5b3adf9c4988.png)
+![image](https://user-images.githubusercontent.com/103306835/169138461-78f037b2-ca1c-44f8-b3f1-0b7c2dacf76e.png)
 
-13.點選上方Reconnect
+18.點選上方Reconnect
 
-![image](https://user-images.githubusercontent.com/103306835/168998886-a378c442-c9b1-4548-98b4-34e043305f59.png)
+![image](https://user-images.githubusercontent.com/103306835/169138495-0385ffc6-3dce-4a96-b2e0-2229ed7f7a3b.png)
 
-14.更新後 顯示資料表
+19.更新後 顯示資料表
 
-![image](https://user-images.githubusercontent.com/103306835/168998936-72489dea-5d15-4b8f-a9a8-512e904ffb93.png)
+![image](https://user-images.githubusercontent.com/103306835/169138521-1d8d4a03-0cf2-4127-9e60-227c8f8612fc.png)
 
 #Step6： S3 上傳CSV
 
@@ -384,15 +411,16 @@ CREATE TABLE IF NOT EXISTS ordertable(
 7.查看資料庫(RDS)
 
 8.點選Reconnect圖示
-![image](https://user-images.githubusercontent.com/103306835/168999885-9dedd433-99d3-464a-a5a6-b82a86942ee0.png)
+
+![image](https://user-images.githubusercontent.com/103306835/169138575-fb8c4187-5cef-4a22-a94f-aea68d9b2080.png)
 
 9.點選資料表
 
-![image](https://user-images.githubusercontent.com/103306835/169000103-859570c5-4aae-489e-a0f6-3ca0abb46723.png)
+![image](https://user-images.githubusercontent.com/103306835/169138605-66275171-9008-4697-bc23-0bc41eaa3721.png)
 
 10.查詢目前資料表的資料欄位
 
-![image](https://user-images.githubusercontent.com/103306835/169000181-08fa2545-a20f-4f48-a9e9-89b44d110485.png)
+![image](https://user-images.githubusercontent.com/103306835/169138636-597ebbde-e0d5-4fdb-b83e-ebb0840ecfba.png)
 
 11.點選步驟3建立的Dynamodb資料表
 
