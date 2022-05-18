@@ -36,7 +36,7 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 ![image](https://user-images.githubusercontent.com/103306835/167973456-485b1160-8c1f-49a7-96b2-e061cd966c9c.png)
 
 
-2.csv檔：
+2.csv檔：https://github.com/EISCFCU/ntue_cloud-database/blob/main/order.csv
 
 
 3.lambda.zip：https://github.com/EISCFCU/ntue_cloud-database/blob/main/s3-csv-trans-fe42e873-5146-447d-ab7b-b186cfbd1caa.zip
@@ -50,6 +50,9 @@ AWS Academy登入連結：https://awsacademy.instructure.com/login/canvas
 ![image](https://user-images.githubusercontent.com/103306835/168982036-1ab09e1e-9250-4d3f-b5dd-e10d5f30579a.png)
 
 
+# 資料表綱要
+
+![image](https://user-images.githubusercontent.com/103306835/169140143-5260d6af-0b03-478e-bd19-f13abb49ef29.png)
 
 
 # 操作步驟
