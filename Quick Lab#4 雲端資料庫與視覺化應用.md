@@ -322,7 +322,7 @@ RDS Endpoint、 S3名稱、Dynamodb資料表名稱
           "arn": "arn:aws:s3:::example-bucket"
         },
         "object": {
-          "key": "product_sale.csv",
+          "key": "order.csv",
           "size": 1024,
           "eTag": "0123456789abcdef0123456789abcdef",
           "sequencer": "0A1B2C3D4E5F678901"
@@ -333,7 +333,7 @@ RDS Endpoint、 S3名稱、Dynamodb資料表名稱
 }
 
 ```
-26.修改23、27行的s3 bucket name及30行的object name
+26.修改23、27行的s3 bucket name及30行的object name(order.csv)
 
 ![image](https://user-images.githubusercontent.com/103306835/169138850-599413e9-5324-4c07-9e6b-fa77b0593446.png)
 
