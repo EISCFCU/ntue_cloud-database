@@ -26,4 +26,10 @@ Quick Lab#4 雲端視覺化呈現(Quicksight)
 
 https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%234%20%E9%9B%B2%E7%AB%AF%E8%B3%87%E6%96%99%E5%BA%AB%E8%88%87%E8%A6%96%E8%A6%BA%E5%8C%96%E6%87%89%E7%94%A8.md
 
-Quick Lab#5 雲端視覺化呈現(Quicksight)
+# 0526 課程內容
+
+5-1.雲端簡易辨識
+https://github.com/EISCFCU/s3-reko-dynamodb/blob/main/README.md
+
+5-2.視覺化呈現(Quicksight)
+https://github.com/EISCFCU/ntue_cloud-database/blob/main/Quick%20Lab%235-2%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96.md
