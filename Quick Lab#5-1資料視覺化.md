@@ -2,7 +2,7 @@
 
 # 使用資源
 
-lambda.zip： https://github.com/EISCFCU/s3-reko-dynamodb/blob/main/DetectLabel-96c34899-e979-4c92-b71c-be97f0a9983d.zip
+lambda.zip： https://github.com/EISCFCU/ntue_cloud-database/blob/main/DetectLabel-96c34899-e979-4c92-b71c-be97f0a9983d.zip
 
 
 # 使用平台：AWS Academy Learner Lab-Foundation Services
