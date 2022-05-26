@@ -1,8 +1,5 @@
 # 資料視覺化
 
-# 使用資源
-
-
 # 使用平台：AWS Academy Learner Lab-Foundation Services / Standard Account
 
 課程代號：18579(只要是Learner Lab皆可學習本實作內容)
@@ -237,6 +234,7 @@ TBLPROPERTIES (
 ![image](https://user-images.githubusercontent.com/103306835/170398866-abd5ac66-1fe8-419c-bf2a-c74d6a9f6417.png)
 
 # 政府公開資料集-NYTaxi
+
 
 # 教材編制：逢甲大學企業資訊系統研究中心
 # 更新日期：2022/05/14(Peggy)
