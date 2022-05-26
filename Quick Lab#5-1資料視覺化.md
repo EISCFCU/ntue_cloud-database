@@ -135,7 +135,7 @@ lambda.zip： https://github.com/EISCFCU/ntue_cloud-database/blob/main/DetectLab
 
 16.找到上傳按鈕 並點選
 
-檔案連結：https://github.com/EISCFCU/s3-reko-dynamodb/blob/main/DetectLabel-96c34899-e979-4c92-b71c-be97f0a9983d.zip
+檔案連結： https://github.com/EISCFCU/ntue_cloud-database/blob/main/DetectLabel-96c34899-e979-4c92-b71c-be97f0a9983d.zip
 
 ![image](https://user-images.githubusercontent.com/103306835/167805143-d43fdc58-32d4-446b-8c92-6cea7ec1e2b7.png)
 
