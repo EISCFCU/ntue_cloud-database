@@ -302,37 +302,3 @@ Lambda輸入的Dynamodb錯誤(請確認Dyanmodb資料表，並參考步驟3進�
 
 # 教材編制：逢甲大學企業資訊系統研究中心
 # 更新日期：2022/05/14(Peggy)
-
-
-
-```
-CREATE EXTERNAL TABLE `aws-rekognition`(
-  `agelow` int, 
-  `agehigh` int, 
-  `emot1-value` string, 
-  `emot1-cofindence` float, 
-  `emot2-value` string, 
-  `emot2-cofindence` float, 
-  `gender` string, 
-  `gender-cofindence` float, 
-  `smile` boolean, 
-  `smile-cofindence` float, 
-  `eyeglasses` boolean, 
-  `eyeglasses-cofindence` float, 
-  `beard` boolean, 
-  `beard-cofindence` string, 
-  `mustache` boolean, 
-  `mustache-cofindence` float, 
-  `uploadtime` timestamp)
-ROW FORMAT DELIMITED 
-  FIELDS TERMINATED BY '\;' 
-STORED AS INPUTFORMAT 
-  'org.apache.hadoop.mapred.TextInputFormat' 
-OUTPUTFORMAT 
-  'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
-LOCATION
-  's3://fcu-rekognition/txt'
-TBLPROPERTIES (
-  'has_encrypted_data'='false', 
-  'transient_lastDdlTime'='1637836051')
-```
